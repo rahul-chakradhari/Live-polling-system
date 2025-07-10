@@ -1,6 +1,6 @@
 # 🗳️ Live Polling System
 
-A real-time web application that simulates a live classroom polling environment using **React** and **Socket.IO**. Built for interactive learning and real-time student engagement, this system supports two personas: **Teacher** and **Student** — each with tailored functionality.
+A real-time web application that simulates a live classroom polling environment using React and Socket.IO. Built for interactive learning and real-time student engagement, this system supports two personas: Teacher and Student — each with tailored functionality.
 
 ## 🔍 Overview
 
