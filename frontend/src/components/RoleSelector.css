@@ -1,0 +1,49 @@
+/* src/components/RoleSelector.css */
+.role-selector-container {
+  text-align: center;
+  padding: 2rem;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.tagline {
+  background-color: #e5d8fd;
+  color: #6a4ec9;
+  display: inline-block;
+  padding: 4px 12px;
+  border-radius: 16px;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.role-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin: 2rem 0;
+}
+
+.role-btn {
+  padding: 1rem 2rem;
+  border: 2px solid #6a4ec9;
+  border-radius: 10px;
+  background-color: #fff;
+  color: #6a4ec9;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.role-btn.selected {
+  background-color: #6a4ec9;
+  color: #fff;
+}
+
+.continue-btn {
+  background-color: #6a4ec9;
+  color: #fff;
+  padding: 0.75rem 2rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
