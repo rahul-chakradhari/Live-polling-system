@@ -21,8 +21,11 @@ This project was created as part of an assignment that mimics a real-world polli
   <br>
   <img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/61bbd400-2acf-40c7-bb78-f3aaaf8c2ac0" />
 - Can only create a new question **if no active poll is running**, or **after all students have answered**.
-- 
-- Optional: Configure a **custom time limit** for polls.
+
+  <br>
+- Optional: Configure a custom time limit for polls.
+ <br>
+ <img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/5731fde4-c29a-4bc5-8e37-129b5b041a6d" />
  <br>
 - Optional: Kick out misbehaving students.
  <br>
