@@ -24,7 +24,8 @@ This project was created as part of an assignment that mimics a real-world polli
 - 
 - Optional: Configure a **custom time limit** for polls.
 - Optional: **Kick out** misbehaving students.
-- Optional: View **past poll results** (fetched from database, not local storage).
+  <br>
+- Optional: View past poll results (fetched from database, not local storage).
   <br>
   <img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/52217f93-b9fe-48ba-bb97-d938007c5527" />
 
