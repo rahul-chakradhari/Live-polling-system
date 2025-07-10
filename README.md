@@ -1,70 +1,51 @@
-# Getting Started with Create React App
+# 🗳️ Live Polling System
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A real-time web application that simulates a live classroom polling environment using **React** and **Socket.IO**. Built for interactive learning and real-time student engagement, this system supports two personas: **Teacher** and **Student** — each with tailored functionality.
 
-## Available Scripts
+## 🔍 Overview
 
-In the project directory, you can run:
+This project was created as part of an assignment that mimics a real-world polling system for classrooms, interviews, or webinars. It uses **WebSockets** for live updates and ensures efficient state handling on both client and server.
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 👥 Personas
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### ✅ Teacher
 
-### `npm test`
+- Create new poll questions.
+- View **live polling results** as students submit answers.
+- Can only create a new question **if no active poll is running**, or **after all students have answered**.
+- Optional: Configure a **custom time limit** for polls.
+- Optional: **Kick out** misbehaving students.
+- Optional: View **past poll results** (fetched from database, not local storage).
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+### 👤 Student
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Enter their **name once per tab** (name is retained on refresh, but not across tabs).
+- Respond to questions when asked by the teacher.
+- **View live poll results** after answering or once the time limit ends.
+- Automatically shown results if they do not respond within **60 seconds**.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🧰 Tech Stack
 
-### `npm run eject`
+| Category      | Technology               |
+|---------------|---------------------------|
+| Frontend      | React, HTML, CSS, JavaScript |
+| State Mgmt    | (Optional) Redux         |
+| Backend       | Node.js, Express.js      |
+| Real-Time     | Socket.IO                |
+| Hosting       | Render / Vercel / Netlify (Frontend), Cyclic / Render (Backend) |
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## ⚙️ Getting Started
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### 1. Clone the Repository
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```bash
+git clone https://github.com/rahul-chakradhari/Live-polling-system.git
+cd Live-polling-system
