@@ -13,7 +13,7 @@ This project was created as part of an assignment that mimics a real-world polli
 ### ✅ Teacher
 
 - Create new poll questions.
-- <br>
+ <br>
   <img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/e7847980-939b-4e63-820f-f67d223ecc6b" />
 - View **live polling results** as students submit answers.
 - Can only create a new question **if no active poll is running**, or **after all students have answered**.
