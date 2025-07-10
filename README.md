@@ -23,7 +23,10 @@ This project was created as part of an assignment that mimics a real-world polli
 - Can only create a new question **if no active poll is running**, or **after all students have answered**.
 - 
 - Optional: Configure a **custom time limit** for polls.
-- Optional: **Kick out** misbehaving students.
+ <br>
+- Optional: Kick out misbehaving students.
+ <br>
+ <img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/16ec4602-4156-4a61-a5c3-312a6ada1a4f" />
   <br>
 - Optional: View past poll results (fetched from database, not local storage).
   <br>
