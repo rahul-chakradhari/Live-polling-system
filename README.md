@@ -26,6 +26,9 @@ This project was created as part of an assignment that mimics a real-world polli
 ### 👤 Student
 
 - Enter their **name once per tab** (name is retained on refresh, but not across tabs).
+
+  <br>
+  <img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/37d4e902-06c3-45bb-a516-adea988abc98" />
 - Respond to questions when asked by the teacher.
 - **View live poll results** after answering or once the time limit ends.
 - Automatically shown results if they do not respond within **60 seconds**.
