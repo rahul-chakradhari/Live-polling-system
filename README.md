@@ -38,7 +38,10 @@ This project was created as part of an assignment that mimics a real-world polli
   <br>
   <img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/37d4e902-06c3-45bb-a516-adea988abc98" />
 - Respond to questions when asked by the teacher.
-- **View live poll results** after answering or once the time limit ends.
+- View live poll results after answering or once the time limit ends.
+
+  <br>
+  <img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/d848e400-5f7b-4954-94b7-58573aa135a7" />
 - Automatically shown results if they do not respond within **60 seconds**.
 
 ---
