@@ -13,6 +13,7 @@ This project was created as part of an assignment that mimics a real-world polli
 ### ✅ Teacher
 
 - Create new poll questions.
+  <img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/e7847980-939b-4e63-820f-f67d223ecc6b" />
 - View **live polling results** as students submit answers.
 - Can only create a new question **if no active poll is running**, or **after all students have answered**.
 - Optional: Configure a **custom time limit** for polls.
@@ -46,6 +47,23 @@ This project was created as part of an assignment that mimics a real-world polli
 
 ### 1. Clone the Repository
 
-```bash
 git clone https://github.com/rahul-chakradhari/Live-polling-system.git
 cd Live-polling-system
+
+### 2. Run Backend
+
+cd backend
+npm install
+node index.js
+
+### 3. Run Frontend
+
+cd frontend
+npm install
+npm start
+
+###  Author
+Rahul Chakradhari
+B.Tech CSE | 2025
+Email: rahulchakradhari10september@gmail.com
+GitHub: @rahul-chakradhari
