@@ -20,7 +20,10 @@ This project was created as part of an assignment that mimics a real-world polli
 - View Live Polling Results as students submit answers.
   <br>
   <img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/61bbd400-2acf-40c7-bb78-f3aaaf8c2ac0" />
-- Can only create a new question **if no active poll is running**, or **after all students have answered**.
+  <br>
+- Can only create a new question  only 1)if no active poll is running or 2) after all students have answered.
+  <br>
+  <img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/c56a9066-889c-4622-aa0e-145af09d87e8" />
 
   <br>
 - Optional: Configure a custom time limit for polls.
