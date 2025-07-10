@@ -16,6 +16,7 @@ This project was created as part of an assignment that mimics a real-world polli
  <br>
   <img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/e7847980-939b-4e63-820f-f67d223ecc6b" />
   <br>
+  <br>
 - View <b>Live Polling Results</b> as students submit answers.
   <br>
   <img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/61bbd400-2acf-40c7-bb78-f3aaaf8c2ac0" />
