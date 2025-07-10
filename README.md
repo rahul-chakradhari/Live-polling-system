@@ -47,7 +47,8 @@ This project was created as part of an assignment that mimics a real-world polli
   <br>
   <img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/d848e400-5f7b-4954-94b7-58573aa135a7" />
 - Automatically shown results if they do not respond within **60 seconds**.
-
+<br>
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/567af2bc-08ff-4bb2-a6b6-92c96832b72e" />
 ---
 
 ## 🧰 Tech Stack
