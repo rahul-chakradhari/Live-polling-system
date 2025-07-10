@@ -17,13 +17,16 @@ This project was created as part of an assignment that mimics a real-world polli
   <img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/e7847980-939b-4e63-820f-f67d223ecc6b" />
   <br>
   <br>
-- View <b>Live Polling Results</b> as students submit answers.
+- View Live Polling Results as students submit answers.
   <br>
   <img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/61bbd400-2acf-40c7-bb78-f3aaaf8c2ac0" />
 - Can only create a new question **if no active poll is running**, or **after all students have answered**.
+- 
 - Optional: Configure a **custom time limit** for polls.
 - Optional: **Kick out** misbehaving students.
 - Optional: View **past poll results** (fetched from database, not local storage).
+  <br>
+  <img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/52217f93-b9fe-48ba-bb97-d938007c5527" />
 
 ---
 
